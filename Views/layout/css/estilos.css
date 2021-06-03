@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
+
+html, body {
+     height: 100%;
+}
+body {
+     font-family: 'Montserrat', sans-serif;
+     background: url(../img/cinema.jpg) no-repeat center center fixed;
+     -webkit-background-size: cover;
+        -moz-background-size: cover;
+          -o-background-size: cover;
+             background-size: cover;
+}
+
+.height-100 {
+     height: 100%;
+}
+
+.bg-dark-alpha {
+     background-color: rgba(0,0,0,0.2);
+}
+.bg-light-alpha {
+     background-color: rgba(255,255,255,0.6);
+}
+.table.bg-light-alpha {
+     background-color: rgba(255,255,255,0.7);
+}
+
+.login-form {
+     width: 500px;
+     border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.radioSize {
+     height: 20px !important;
+     margin-left: 10px !important;
+     width: 20px !important;
+   }
+
+/* estilos nav */
+
+.sidebar {
+    position: fixed;
+    height: 100%;
+    width: 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #8e1e1e;
+    overflow-x: hidden;
+    transition: 0.4s;
+    padding: 1rem 0;
+    box-sizing:border-box;
+}
+
+.sidebar .boton-cerrar {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    font-size: 2rem;
+    display: block;
+    padding: 0;
+    line-height: 1.5rem;
+    margin: 0;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.sidebar ul, .sidebar li{
+    margin:0;
+    padding:0;
+    list-style:none inside;
+}
+
+.sidebar ul {
+    margin: 4rem auto;
+    display: block;
+    width: 80%;
+    min-width:200px;
+}
+
+.sidebar a {
+    display: block;
+    font-size: 120%;
+    color: #eee;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+.sidebar a:hover{
+    /*color:#fff;*/
+    color: #9da39d;
+    /*background-color: #0f1675; azul*/
+    /*background-color: #0a4006;*/ /*verde*/
+    /*background-color: black;*/
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+h1.intro{
+    color:#f90;
+    font-size:180%;
+    font-weight:normal;
+}
+
+#contenido {
+    transition: margin-left .4s;
+    padding: 1rem;
+}
+
+#contenido2 {
+    transition: margin-left .4s;
+    padding: 1rem;
+}
+
+.abrir-cerrar {
+    color: #2E88C7;
+    font-size:1rem;   
+}
+
+#abrir {
+    
+}
+
+#cerrar {
+    display:none;
+}
+
+/* INTRO */
+
+/*article{
+    margin-left: 10px;
+}*/
+
+p.presentacion {
+    color: white;
+}
+
+/************************   PARA LAS PELICULAS   **********************/
+/* stylelint-disable selector-list-comma-newline-after */
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: .875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: .05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.color-pelis{
+  background-color: rgba(0,0,0,0.9);
+}
+
+/************************   FIN PELICULAS   **********************/
+
+p.recorta-texto {
+      width: 300px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "idCinema": 3,
+        "state": false,
+        "name": "Ambassador",
+        "address": "Cordoba 5060"
+    },
+    {
+        "idCinema": 4,
+        "state": true,
+        "name": "Cines Aldrey",
+        "address": "Sarmiento 2685"
+    },
+    {
+        "idCinema": 6,
+        "state": true,
+        "name": "Cines del Paseo",
+        "address": "Diagonal Pueyrredon 3058"
+    }
+]
